@@ -4,6 +4,6 @@ new = sentence.split()
 arr = []
 #p new
  new.each {|i| arr <<  i.reverse}
- p arr
- return arr
+arr = arr.join(" ")
+return arr
 end
